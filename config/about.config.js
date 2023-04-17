@@ -21,12 +21,7 @@ export const aboutDataList = [
   },
   {
     key: 5,
-    title: "Telefono",
-    body: "+584247159831",
-  },
-  {
-    key: 6,
     title: "Edad",
-    body: "25 años",
+    body: "26 años",
   },
 ];
