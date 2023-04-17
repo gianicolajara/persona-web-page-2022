@@ -1,4 +1,4 @@
-import { BiWalk, BiCoffeeTogo } from "react-icons/bi";
+import { BiWalk, BiCoffeeTogo, BiGame } from "react-icons/bi";
 import { AiOutlineShoppingCart } from "react-icons/ai";
 import { TbDogBowl } from "react-icons/tb";
 
@@ -34,5 +34,13 @@ export const typesProjectsList = [
     icon: <BiCoffeeTogo />,
     image: "/images/coffee.jpg",
     url: "https://wordpress-nextjs-example.vercel.app/",
+  },
+  {
+    key: 5,
+    title: "Gaming Page",
+    body: "Pagina web gaming hecha en nextjs",
+    icon: <BiGame />,
+    image: "/images/gaming-page.png",
+    url: "https://gaming-platform-web-design.vercel.app/",
   },
 ];
