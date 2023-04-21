@@ -1,4 +1,5 @@
 import { BiWalk, BiCoffeeTogo, BiGame } from "react-icons/bi";
+import { GiBigWave } from "react-icons/gi";
 import { AiOutlineShoppingCart } from "react-icons/ai";
 import { TbDogBowl } from "react-icons/tb";
 
@@ -42,5 +43,13 @@ export const typesProjectsList = [
     icon: <BiGame />,
     image: "/images/gaming-page.png",
     url: "https://gaming-platform-web-design.vercel.app/",
+  },
+  {
+    key: 6,
+    title: "Roslynka",
+    body: "Pagina web de venta de arte de resina",
+    icon: <GiBigWave />,
+    image: "/images/roslynka.png",
+    url: "https://roslynka-web-example.vercel.app/",
   },
 ];
