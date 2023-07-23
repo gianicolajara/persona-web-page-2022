@@ -2,6 +2,7 @@ import { BiWalk, BiCoffeeTogo, BiGame } from "react-icons/bi";
 import { GiBigWave } from "react-icons/gi";
 import { AiOutlineShoppingCart } from "react-icons/ai";
 import { TbDogBowl } from "react-icons/tb";
+import { BsBuilding } from "react-icons/bs";
 
 export const typesProjectsList = [
   {
@@ -51,5 +52,14 @@ export const typesProjectsList = [
     icon: <GiBigWave />,
     image: "/images/roslynka.png",
     url: "https://roslynka-web-example.vercel.app/",
+  },
+  ,
+  {
+    key: 7,
+    title: "Administración",
+    body: "App para la administración de ingresos y egresos",
+    icon: <BsBuilding />,
+    image: "/images/administration.jpg",
+    url: "https://administration-system-green.vercel.app/",
   },
 ];

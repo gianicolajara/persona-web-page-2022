@@ -13,9 +13,13 @@ const Menu = () => {
   };
 
   useEffect(() => {
-    open
-      ? document.body.classList.add("overflow-hidden")
-      : document.body.classList.remove("overflow-hidden");
+    if (open) {
+      document.body.classList.add("overflow-hidden");
+      document.documentElement.classList.add("overflow-hidden");
+    } else {
+      document.body.classList.remove("overflow-hidden");
+      document.documentElement.classList.remove("overflow-hidden");
+    }
   }, [open]);
 
   return (
